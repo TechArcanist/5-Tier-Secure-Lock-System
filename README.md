@@ -16,6 +16,9 @@ The **5-Tier Secure Lock System** is a robust security project that combines mul
 - **Fingerprint Authentication:** The third layer, requiring biometric verification using a fingerprint sensor.
 - **OTP Layer:** The fourth layer sends an OTP to a registered mobile number for enhanced security.
 - **Google Authenticator OTP:** The final layer that uses time-based OTP from Google Authenticator for maximum protection.
+- **Admin Mode:** A special mode allowing the admin to bypass all layers using a direct passcode and fingerprint entry.
+- **Layered Mode:** For non-admin users, the system follows the full security sequence (Passcode -> RFID -> Fingerprint -> OTP -> Google Authenticator OTP).
+- **Admin Fingerprint Management:** In admin mode, the admin can add new fingerprints to the system for future access.
 
 ---
 
@@ -105,12 +108,17 @@ The **5-Tier Secure Lock System** is a robust security project that combines mul
 
 ---
 
-## 📸 Screenshots
+## 📸 Circuit Diagram
 
-*Include any screenshots related to your project here.*
+![security systerm diagram_page-0001 (1)](https://github.com/user-attachments/assets/ebaee33e-607b-4a37-8f60-8102744e0a54)
 
 ---
 
+## 📸 Video 
+
+https://github.com/user-attachments/assets/4dc1410e-aacc-4525-903b-a183260c8055
+
+---
 ## 👨‍💻 Developed By
 
 **Lavitra Sahu**  
